@@ -84,8 +84,7 @@ fetch("http://127.0.0.1:5050/menu")
           </div>
         </div>
       `;
-
-      // Find the Add button inside this card
+// Find the Add button inside this card
 const addButton = card.querySelector(".add-btn");
 
 // When clicked, add this item to the cart in localStorage
@@ -98,7 +97,6 @@ addButton.addEventListener("click", () => {
 
   console.log(`Added to cart: ${item.ItemName}`);
 });
-
       if (target) {
         target.appendChild(card);
       }
