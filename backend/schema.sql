@@ -10,6 +10,7 @@ CREATE TABLE IF NOT EXISTS MenuItems (
     ItemName   TEXT NOT NULL,
     Category   TEXT NOT NULL,   -- e.g. 'Breakfast', 'Drink', 'Snack', 'Lunch'
     Price      REAL NOT NULL
+    ImageFile  TEXT
 );
 
 -- One order per purchase (linked to a customer)
